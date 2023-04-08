@@ -8,9 +8,9 @@
 }
 
 :root {
-    --fs_sm: 16px;
-    --fs_md: 18px;
-    --fs_lg: 25px;
+    --fs_sm: 18px;
+    --fs_md: 22px;
+    --fs_lg: 48px;
 
     /* fone=t-w */
     --fw_400: 400px;

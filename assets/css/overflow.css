@@ -58,10 +58,6 @@
 
 /* ===========================margin================== */
 
-.mr-0 {
-    margin-right: 0;
-}
-
 .mb-16 {
     margin-bottom: 16px;
 }
@@ -84,10 +80,11 @@
 }
 
 /* ===============================col================= */
-.col-6 {
-    width: 50%;
+.col-12 {
+    width: 100%;
     padding-left: 12px;
     padding-right: 12px;
+    margin-bottom: 30px;
 }
 
 /* ==================font-dectoration================== */
@@ -123,7 +120,6 @@
 .box {
     max-width: 600px;
     height: 92px;
-    background: blue;
     background: #151313;
     border-radius: 46px;
 }
@@ -137,29 +133,21 @@
     cursor: pointer;
 }
 
-.p-relative {
-    position: relative;
+.overflow-hidden {
+    overflow-x: hidden;
 }
 
 .box:hover {
     background-color: #0C0B0B;
-
 }
 
-.one:hover {
+.box:hover .one {
     background: linear-gradient(90deg, #FFA800 0%, #F06500 100%);
     color: #ffffff;
 }
 
 .transform {
     transform: translateX(12px);
-}
-
-.col-12 {
-    width: 100%;
-    padding-left: 12px;
-    padding-right: 12px;
-    margin-bottom: 30px;
 }
 
 @media (min-width: 992px) {
